@@ -11,7 +11,7 @@ class Backstage extends ItemProxy
             return;
         }
 
-        if ($this->item->sell_in <= 10 && $this->item->quality <= 48) {
+        if ($this->item->sell_in <= 10) {
             $this->item->quality += 2;
             return;
         }

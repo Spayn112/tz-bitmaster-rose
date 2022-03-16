@@ -8,9 +8,6 @@ class AgedBrie extends ItemProxy
     {
         if ($this->item->sell_in <= 0) {
             $this->item->quality += 2;
-            if ($this->item->quality >= 50) {
-                $this->item->quality = 50;
-            }
             return;
         }
 
