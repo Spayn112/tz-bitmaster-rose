@@ -2,6 +2,9 @@
 
 namespace GildedRose\Items;
 
+/**
+ * Standard
+ */
 class Standard extends ItemProxy
 {
     protected function changeQuality(): void

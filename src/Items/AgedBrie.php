@@ -2,6 +2,9 @@
 
 namespace GildedRose\Items;
 
+/**
+ * Aged Brie
+ */
 class AgedBrie extends ItemProxy
 {
     protected function changeQuality(): void

@@ -2,6 +2,9 @@
 
 namespace GildedRose\Items;
 
+/**
+ * Backstage passes to a TAFKAL80ETC concert
+ */
 class Backstage extends ItemProxy
 {
     protected function changeQuality(): void

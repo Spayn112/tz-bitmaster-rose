@@ -2,6 +2,9 @@
 
 namespace GildedRose\Items;
 
+/**
+ * Sulfuras, Hand of Ragnaros
+ */
 class Sulfras extends ItemProxy
 {
     public function updateQuality(): void

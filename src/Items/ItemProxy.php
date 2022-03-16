@@ -4,6 +4,9 @@ namespace GildedRose\Items;
 
 use GildedRose\Item;
 
+/**
+ * Обобщенный класс для вынесения повторяющийся логики
+ */
 abstract class ItemProxy
 {
     protected Item $item;
